@@ -8,7 +8,7 @@ description: "with Apollo Server"
 ---
 Apollo Server 2.x부터는 File upload를 하기 위해 `graphql-upload` 모듈이 필요하다. 
 
-[](https://www.npmjs.com/package/graphql-upload)
+> https://www.npmjs.com/package/graphql-upload
 
 Apollo sever는 기존에 default로 upload 기능을  지원하고 있었기 때문에 `graphql-upload`를 사용하기 위해서는 Apollo server를 생성할 때 `uploads:false` 옵션을 추가해야 한다. 
 
